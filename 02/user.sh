@@ -1,0 +1,6 @@
+read -p "Enter username: " username
+
+echo "you entered $username"
+sudo useradd -m $username
+
+echo "New user added"
